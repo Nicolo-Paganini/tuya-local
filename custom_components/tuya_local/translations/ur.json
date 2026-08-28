@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "خود کار",
+							"dehumidify": "ڈی ہیومیڈیفائی کریں۔",
+							"fan_only": "پنکھا"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
