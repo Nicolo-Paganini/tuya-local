@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Αυτόματο",
+							"dehumidify": "Αφυγραντήρας",
+							"fan_only": "Ανεμιστήρας"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
