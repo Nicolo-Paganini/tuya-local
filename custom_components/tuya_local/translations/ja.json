@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "自動",
+							"dehumidify": "除湿",
+							"fan_only": "ファン"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
