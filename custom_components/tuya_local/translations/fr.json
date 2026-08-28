@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Auto",
+							"dehumidify": "Déshumidifier",
+							"fan_only": "Ventilation"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
