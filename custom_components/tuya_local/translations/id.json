@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Otomatis",
+							"dehumidify": "Pengering",
+							"fan_only": "Hanya kipas"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
