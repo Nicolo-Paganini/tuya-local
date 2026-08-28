@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Auto",
+							"dehumidify": "Odvlhčovat",
+							"fan_only": "Ventilátor"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
