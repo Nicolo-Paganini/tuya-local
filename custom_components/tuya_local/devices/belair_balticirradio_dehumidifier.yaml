@@ -6,7 +6,7 @@ products:
 entities:
   - entity: humidifier
     class: dehumidifier
-    translation_key: extended
+    translation_key: dehumidifier
     dps:
       - id: 1
         type: boolean
@@ -27,11 +27,11 @@ entities:
         name: mode
         mapping:
           - dps_val: Fan
-            value: purify
+            value: fan_only
           - dps_val: Dry
-            value: laundry
+            value: dehumidify
           - dps_val: Smart
-            value: normal
+            value: auto
   - entity: fan
     dps:
       - id: 1
@@ -77,6 +77,14 @@ entities:
         type: integer
         name: sensor
         unit: C
+        class: measurement
+  - entity: sensor
+    class: humidity
+    dps:
+      - id: 3
+        type: integer
+        name: sensor
+        unit: "%"
         class: measurement
   - entity: binary_sensor
     class: problem
