@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Auto",
+							"dehumidify": "Osuszanie",
+							"fan_only": "Wiatrak"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
