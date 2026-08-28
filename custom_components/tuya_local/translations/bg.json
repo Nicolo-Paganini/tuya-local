@@ -429,7 +429,18 @@
                         }
                     }
                 }
-            }
+            },
+            "dehumidifier": {
+				"state_attributes": {
+					"mode": {
+						"state": {
+							"auto": "Автоматично",
+							"dehumidify": "Обезвлажняване",
+							"fan_only": "Вентилатор"
+						}
+					}
+				}
+			}
         },
         "fan": {
             "air_purifier": {
